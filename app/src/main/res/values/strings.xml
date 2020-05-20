@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BroadcastReceiverYTelefonia</string>
+    <string name="Tel">Telefono</string>
+    <string name="Msg">MSG</string>
+</resources>
