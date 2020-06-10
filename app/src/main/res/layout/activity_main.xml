@@ -11,20 +11,24 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
         <EditText
+            android:id="@+id/txtTel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/Tel"
             android:inputType="phone">
         </EditText>
         <EditText
+            android:id="@+id/txtMSG"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/Msg">
         </EditText>
         <Button
+            android:id="@+id/btnGuardar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Guardar">
+            android:text="Guardar"
+            android:onClick="btnGuardar">
         </Button>
     </LinearLayout>
 
