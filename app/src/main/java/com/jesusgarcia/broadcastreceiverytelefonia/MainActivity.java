@@ -10,7 +10,8 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 EditText txtTelefono, txtMsg;
-static Intent i = new Intent();
+public static Intent i = new Intent();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +23,6 @@ static Intent i = new Intent();
     public void btnGuardar(View view) {
         i.putExtra("tel",txtTelefono.getText().toString());
         i.putExtra("msg",txtMsg.getText().toString());
-        Toast.makeText(this, "Boton presionado", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Guardado", Toast.LENGTH_SHORT).show();
     }
 }

@@ -13,7 +13,7 @@ public class MiBroadcastReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(final Context context, Intent intent) {
         final String tel = MainActivity.i.getStringExtra("tel");
-        final String msg = MainActivity.i.getStringExtra("smg");
+        final String msg = MainActivity.i.getStringExtra("msg");
 
         TelephonyManager telephonyManager = (TelephonyManager) context.getSystemService(Service.TELEPHONY_SERVICE);
 
